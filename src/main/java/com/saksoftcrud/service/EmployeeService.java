@@ -18,7 +18,7 @@ public class EmployeeService {
     }
 
     public List<Employee> getEmployee(){
-        return empRepo.findAll();
+        return (List<Employee>) empRepo.findAll();
     }
 
     public Employee getEmployeeById(Integer id){

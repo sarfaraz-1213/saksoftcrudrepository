@@ -21,7 +21,8 @@ public class Employee {
     private String firstName;
     private String lastName;
     private String email;
-	private String age;
+	private Integer age;
+	
 	
     public Integer getId() {
 		return id;
@@ -47,10 +48,10 @@ public class Employee {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	public String getAge() {
+	public Integer getAge() {
 		return age;
 	}
-	public void setAge(String age) {
+	public void setAge(Integer age) {
 		this.age = age;
 	}
 
